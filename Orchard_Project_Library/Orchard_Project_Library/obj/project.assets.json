@@ -9274,6 +9274,22 @@
             "related": ".xml"
           }
         }
+      },
+      "Orchard_Project_Library.LibraryMainTheme/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OrchardCore.Theme.Targets": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Orchard_Project_Library.LibraryMainTheme.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orchard_Project_Library.LibraryMainTheme.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -25902,11 +25918,17 @@
         "zstring.2.5.0.nupkg.sha512",
         "zstring.nuspec"
       ]
+    },
+    "Orchard_Project_Library.LibraryMainTheme/1.0.0": {
+      "type": "project",
+      "path": "../Orchard_Project_Library.LibraryMainTheme/Orchard_Project_Library.LibraryMainTheme.csproj",
+      "msbuildProject": "../Orchard_Project_Library.LibraryMainTheme/Orchard_Project_Library.LibraryMainTheme.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "OrchardCore.Application.Cms.Targets >= 1.6.0"
+      "OrchardCore.Application.Cms.Targets >= 1.6.0",
+      "Orchard_Project_Library.LibraryMainTheme >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -25942,7 +25964,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\app\\Egyetem\\ASP.NET_Orchard\\Orchard_Project_Library\\Orchard_Project_Library\\Orchard_Project_Library.LibraryMainTheme\\Orchard_Project_Library.LibraryMainTheme.csproj": {
+              "projectPath": "C:\\app\\Egyetem\\ASP.NET_Orchard\\Orchard_Project_Library\\Orchard_Project_Library\\Orchard_Project_Library.LibraryMainTheme\\Orchard_Project_Library.LibraryMainTheme.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

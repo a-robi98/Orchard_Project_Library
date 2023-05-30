@@ -98,6 +98,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.Alias")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminMenu")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminDashboard")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("Orchard_Project_Library.LibraryMainTheme")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Orchard_Project_Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
