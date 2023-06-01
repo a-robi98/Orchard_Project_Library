@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Orchard_Project_Library.BookModule\Orchard_Project_Library.BookModule.csproj" />
     <ProjectReference Include="..\Orchard_Project_Library.MaintTheme\Orchard_Project_Library.MainTheme.csproj" />
+    <ProjectReference Include="..\WebApplication1_try\WebApplication1_try.csproj" />
   </ItemGroup>
 
 </Project>

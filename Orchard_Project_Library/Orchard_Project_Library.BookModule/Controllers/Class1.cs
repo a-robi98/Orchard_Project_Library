@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace Orchard_Project_Library.BookModule.Controllers
 {
-    internal class Class1
-    {
-    }
+  
 }
